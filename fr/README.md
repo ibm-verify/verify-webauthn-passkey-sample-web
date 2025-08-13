@@ -1,6 +1,6 @@
-# Exemple d'application IBM Security Verify pour Passkey sur le Web
+# Exemple d'application IBM Verify pour Passkey sur le Web
 
-Exemple de mise en œuvre de Passkeys à l'aide de la fonctionnalité native du navigateur et du serveur IBM Security Verify WebAuthn Relying Party Server.
+Exemple de mise en œuvre de Passkeys à l'aide de la fonctionnalité native du navigateur et du serveur IBM Verify WebAuthn Relying Party Server.
 
 ## Mise en route
 
@@ -8,12 +8,12 @@ Les liens de ressources dans les conditions préalables expliquent et démontren
 
 ### Prérequis
 
-- Suivez les instructions pour créer un [serveur de confiance](https://github.com/ibm-security-verify/webauthn-relying-party-server-swift/blob/main/README.md)
+- Suivez les instructions pour créer un [serveur de confiance](https://github.com/ibm-verify/webauthn-relying-party-server-swift/blob/main/README.md)
 
 - Cloner le dépôt. Exécutez cette commande dans une fenêtre Terminal :
 
    ```
-   git clone https://github.com/ibm-security-verify/webauthn-relying-party-server.git
+   git clone https://github.com/ibm-verify/webauthn-relying-party-server.git
    ```
 ### Configuration du projet
 
