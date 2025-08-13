@@ -7,7 +7,7 @@ Cet exemple suit le style de codage basé sur le [Google TypeScript Style Guide]
 
 ## Enjeux et questions
 
-Si vous rencontrez un problème, si vous avez une question ou si vous souhaitez suggérer une amélioration de l'application IBM Security Verify Sample App for Passkey on Web, n'hésitez pas à soumettre une [demande](https://github.com/ibm-security-verify/webauthn-passkey-sample-web/issues).
+Si vous rencontrez un problème, si vous avez une question ou si vous souhaitez suggérer une amélioration de l'application IBM Verify Sample App for Passkey on Web, n'hésitez pas à soumettre une [demande](https://github.com/ibm-verify/webauthn-passkey-sample-web/issues).
 Avant cela, veuillez rechercher des problèmes similaires. Il est possible que quelqu'un ait déjà rencontré ce problème.
 
 ## Demandes d'extraction

@@ -2,12 +2,12 @@ import React from 'react';
 import { Grid, Row, Column, Content, Link, ListBox } from '@carbon/react';
 
 const items = [
-  { id: 'webauthn-relying-party-server-swift', link: 'https://github.com/ibm-security-verify/webauthn-relying-party-server-swift' },
-  { id: 'webauthn-relying-party-kit-ios', link: 'https://github.com/ibm-security-verify/webauthn-relying-party-server-swift' },
-  { id: 'webauthn-relying-party-sample-ios', link: 'https://github.com/ibm-security-verify/webauthn-passkey-sample-ios' },
-  { id: 'webauthn-relying-party-sdk-android', link: 'https://github.com/ibm-security-verify/webauthn-relying-party-sdk-android' },
-  { id: 'webauthn-passkey-sample-android', link: 'https://github.com/ibm-security-verify/webauthn-passkey-sample-android' },
-  { id: 'webauthn-passkey-sample-web', link: 'https://github.com/ibm-security-verify/webauthn-passkey-sample-web' },
+  { id: 'webauthn-relying-party-server-swift', link: 'https://github.com/ibm-verify/webauthn-relying-party-server-swift' },
+  { id: 'webauthn-relying-party-kit-ios', link: 'https://github.com/ibm-verify/webauthn-relying-party-server-swift' },
+  { id: 'webauthn-relying-party-sample-ios', link: 'https://github.com/ibm-verify/webauthn-passkey-sample-ios' },
+  { id: 'webauthn-relying-party-sdk-android', link: 'https://github.com/ibm-verify/webauthn-relying-party-sdk-android' },
+  { id: 'webauthn-passkey-sample-android', link: 'https://github.com/ibm-verify/webauthn-passkey-sample-android' },
+  { id: 'webauthn-passkey-sample-web', link: 'https://github.com/ibm-verify/webauthn-passkey-sample-web' },
 ];
 const RepoPage = () => {
   return (

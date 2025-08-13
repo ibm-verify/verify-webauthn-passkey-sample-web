@@ -1,12 +1,10 @@
-# webauthn_web_test
-
 ## Présentation du projet
 
 Il s'agit d'une page web très simple et d'un serveur construit pour tester le Relying Party Server construit par @craigaps.
 
-La condition préalable est que le RPS soit déployé et accessible via HTTPS- [un guide est disponible ici](https://github.com/ibm-security-verify/webauthn-relying-party-server-swift)
+La condition préalable est que le RPS soit déployé et accessible via HTTPS- [un guide est disponible ici](https://github.com/ibm-verify/webauthn-relying-party-server-swift)
 
-Lorsque vous déployez cette page web, assurez-vous de respecter les spécifications FIDO2, en veillant à ce que votre RPS et votre application web soient tous deux déployés sur le même domaine (c'est-à-dire rps.au-syd.cloud.com et webapp.au-syd.cloud.com ), servis par HTTPS et tous deux ajoutés en tant qu'origines acceptables dans la configuration FIDO2 de votre fournisseur IBM Security Verify dispose d'une interface utilisateur très conviviale pour effectuer ces changements, si nécessaire)
+Lorsque vous déployez cette page web, assurez-vous de respecter les spécifications FIDO2, en veillant à ce que votre RPS et votre application web soient tous deux déployés sur le même domaine (c'est-à-dire rps.au-syd.cloud.com et webapp.au-syd.cloud.com ), servis par HTTPS et tous deux ajoutés en tant qu'origines acceptables dans la configuration FIDO2 de votre fournisseur IBM Verify dispose d'une interface utilisateur très conviviale pour effectuer ces changements, si nécessaire)
 
 ### Page Web
 

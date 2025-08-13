@@ -1,23 +1,19 @@
-# webauthn_web_test
-
 ## Project Overview 
 
 This is a very simple web page and server built to test the Relying Party Server built by @craigaps. 
 
-Prerequisite is to have the RPS deployed and accessible via HTTPS - [there is a guide housed here](https://github.com/ibm-security-verify/webauthn-relying-party-server-swift)
+Prerequisite is to have the RPS deployed and accessible via HTTPS - [there is a guide housed here](https://github.com/ibm-verify/webauthn-relying-party-server-swift)
 
-When deploying this web page, ensure you follow the FIDO2 specifications, ensuring that your RPS and web app are both deployed on the same domain (i.e. rps.au-syd.cloud.com and webapp.au-syd.cloud.com), served over HTTPS and both added as acceptable origins in your FIDO2 configuration from your provider (IBM Security Verify has a very friendly UI to make these changes if needed.)
+When deploying this web page, ensure you follow the FIDO2 specifications, ensuring that your RPS and web app are both deployed on the same domain (i.e. rps.au-syd.cloud.com and webapp.au-syd.cloud.com), served over HTTPS and both added as acceptable origins in your FIDO2 configuration from your provider (IBM Verify has a very friendly UI to make these changes if needed.)
 
 ### Web page 
 
 * The web page is written in Javascript with React Carbon. Review the readme in `carbon2/carbon-tutorial` for more instructions. 
 
-
 ### Server 
 
 * The server is an express.js server that facilitates axios calls to and from the RPS.
 * This server is optional as calls can be made directly to the RPS from the react page - should you wish to do this simply change the API endpoints in the carbon2/carbon-tutorial/src/landing-page directory. 
-
 
 ### Running 
 

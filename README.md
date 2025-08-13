@@ -1,6 +1,6 @@
-# IBM Security Verify Sample App for Passkey on Web
+# IBM Verify Sample App for Passkey on Web
 
-An example implementation of Passkeys using native browser functionality and the IBM Security Verify WebAuthn Relying Party Server.
+An example implementation of Passkeys using native browser functionality and the IBM Verify WebAuthn Relying Party Server.
 
 ## Getting started
 
@@ -8,12 +8,12 @@ The resource links in the prerequisites explain and demonstrate how you create a
 
 ### Prerequisites
 
-- Follow the instructions to create a [relying party server](https://github.com/ibm-security-verify/webauthn-relying-party-server-swift/blob/main/README.md)
+- Follow the instructions to create a [relying party server](https://github.com/ibm-verify/webauthn-relying-party-server-swift/blob/main/README.md)
 
 - Clone the repository. Run this command in a Terminal window:
 
   ```
-  git clone https://github.com/ibm-security-verify/webauthn-relying-party-server.git
+  git clone https://github.com/ibm-verify/webauthn-relying-party-server.git
   ```
 ### Configuring the project
 
